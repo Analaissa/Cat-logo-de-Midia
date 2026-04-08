@@ -1,0 +1,38 @@
+{
+  "name": "Favorite",
+  "type": "object",
+  "properties": {
+    "movie_id": {
+      "type": "number",
+      "description": "TMDB movie ID"
+    },
+    "title": {
+      "type": "string",
+      "description": "Movie title"
+    },
+    "poster_url": {
+      "type": "string",
+      "description": "URL of the movie poster"
+    },
+    "rating": {
+      "type": "number",
+      "description": "Movie rating"
+    },
+    "year": {
+      "type": "string",
+      "description": "Release year"
+    },
+    "overview": {
+      "type": "string",
+      "description": "Movie overview/synopsis"
+    },
+    "genres": {
+      "type": "string",
+      "description": "Comma-separated genre names"
+    }
+  },
+  "required": [
+    "movie_id",
+    "title"
+  ]
+}
